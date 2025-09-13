@@ -1,2 +1,2 @@
 # Trabajo-Grupal
-Este trabajo es para el curso de Introducción A Ciencia De Datos Y Machine Learning Con Python | E2ICD9 |
+Este trabajo para el curso de Introducción A Ciencia De Datos Y Machine Learning Con Python | E2ICD9 | es un proyecto que explora cómo el nivel educativo de la madre se relaciona con el acceso a controles prenatales adecuados en el Perú, utilizando datos de la Encuesta Demográfica y de Salud Familiar (ENDES). A través de un análisis descriptivo, se investiga la hipótesis de que un mayor nivel educativo está asociado a una mejor atención prenatal, examinando también el papel de otros factores como la riqueza y la ubicación geográfica.
