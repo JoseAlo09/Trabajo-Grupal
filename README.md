@@ -6,13 +6,13 @@ Este trabajo para el curso de Introducción A Ciencia De Datos Y Machine Learnin
 
 El objetivo de la investigación es analizar los factores sociodemográficos y económicos que influyen en la probabilidad de que una madre reciba atención prenatal adecuada.
 
-### 🎯 Variable Objetivo (`TARGET`)
+### Variable Objetivo (`TARGET`)
 
 | Variable | Tipo | Descripción |
 | :--- | :--- | :--- |
 | **`prenatal_adecuado`** | Binaria (0, 1) | **1** si la atención prenatal es considerada adecuada, **0** si es inadecuada. |
 
-### 🔍 Variables Predictoras (`FEATURES`)
+### Variables Predictoras (`FEATURES`)
 
 | Variable | Tipo | Descripción |
 | :--- | :--- | :--- |
@@ -22,22 +22,9 @@ El objetivo de la investigación es analizar los factores sociodemográficos y e
 | **`SREGION`** | Numérica (Categórica) | Región geográfica de residencia. |
 | **`urbano`** | Binaria (0, 1) | **1** si reside en zona urbana, **0** si reside en zona rural. |
 
-***
+*** 
 
-## 2. Versión de Python y Dependencias
-
-### Versión de Python
-El entorno de ejecución usado fue **Python 3.12**.
-
-### Dependencias
-
-Las librerías necesarias pueden instalarse usando `pip`:
-
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn statsmodels
-LibreríaPropósito principalpandas, numpyManipulación de datos.matplotlib, seabornVisualización.scikit-learnModelos de predicción y Validación Cruzada.statsmodelsInferencia estadística (OLS y Logit).
- 
-## 3. Decisiones de Modelado
+### 2. Decisiones de Modelado
 
 Se eligió la **Opción B: Comparar Regresión (OLS) vs. Clasificación (Logit)**, ya que la variable dependiente es binaria, buscando el enfoque más informativo para la inferencia y predicción.
 
@@ -62,5 +49,19 @@ El modelo elegido fue la **Regresión Logística (Logit)**.
 * **Conclusión:** El modelo generaliza bien, ya que el rendimiento en el Test Set es similar al CV.
 * **Inferencial:** Los **factores socioeconómicos** (Educación y Riqueza) aumentan significativamente las probabilidades de atención adecuada.
 * **Limitación:** La Precisión de 0.00 para la clase minoritaria (atención inadecuada) evidencia un problema de **desbalance de clases** (89% vs 11%) que impide al modelo identificar correctamente los casos negativos.
+
+***
+## 3. Versión de Python y Dependencias
+
+### Versión de Python
+El entorno de ejecución usado fue **Python 3.12**.
+
+### Dependencias
+
+Las librerías necesarias pueden instalarse usando `pip`:
+
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn statsmodels
+LibreríaPropósito principalpandas, numpyManipulación de datos.matplotlib, seabornVisualización.scikit-learnModelos de predicción y Validación Cruzada.statsmodelsInferencia estadística (OLS y Logit).
 
 ***
